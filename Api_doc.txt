@@ -1,0 +1,26 @@
+post Api for Add employee
+
+http://localhost:3000/community/addEmploye
+{
+    "employe_id":"1233485",
+    "employee_name":"Rupesh suryawanshi",
+    "company_name":"Mindcrew",
+    "role":"Admin"
+}
+
+
+put Api for update_employe
+http://localhost:3000/community/update_employe
+
+    {     
+    "employe_id":"1233485",
+    "employee_name":"Rupesh suryawanshi",
+    "company_name":"Mindcrew",
+    "role":"Admin"
+    
+}
+
+Delete Api for Delete employe
+{
+    "employe_id":12345
+}
